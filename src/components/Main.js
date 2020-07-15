@@ -6,7 +6,7 @@ class Main extends React.Component {
   };
   componentDidMount() {
     axios
-      .get("http://127.0.0.1:8000/api", (err) => {
+      .get("https://virtual-tool-box.herokuapp.com/api", (err) => {
         console.log(err);
       })
       .then((response) => {
